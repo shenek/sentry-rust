@@ -108,6 +108,7 @@
 //! * `with_reqwest_transport`: enables the reqwest transport explicitly.  This
 //!   is currently the default transport.
 //! * `with_curl_transport`: enables the curl transport.
+//! * `with_slog`: enables the `slog` integration
 #![warn(missing_docs)]
 
 #[macro_use]
